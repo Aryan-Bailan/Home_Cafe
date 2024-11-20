@@ -12,7 +12,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff1e6;">
     <div class="container-fluid">
       <div class="head">Cafeverse</div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -41,19 +41,30 @@
       </div>
     </div>
   </nav>
+  <hr style="background-color: black; margin: 0; padding: 0; height: 3px;">
 
-  <div class="text-bg-dark md-3 pt-3 px-3 pt-md-5 px-md-5 text-start overflow-hidden front">
-    <div class="my-0 py-0">
-      <h2 class="display-5">Cafeverse</h2>
-      <p class="lead">A moment of warmth in every sip.</p>
-    </div>
-    <div class="two_buttons">
-      <button type="button" class="btn btn-warning">Gift</button>
-      <button type="button" class="btn btn-danger">Shop</button>
-    </div>
+  <div class="mobile_view">
+    <img src="i.png">
   </div>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-danger text-light">
+  <div class="text-dark md-3 pt-3 px-3 pt-md-5 px-md-5 text-start overflow-hidden front" id="front">
+    <div class="front_right">
+      <div class="my-0 py-0">
+        <h2 class="display-5" style="font-weight: 600;">Cafeverse</h2>
+        <p class="lead" style="font-weight: 550;">A moment of warmth in every sip.</p>
+      </div>
+      <div class="two_buttons">
+        <button type="button" class="btn btn-warning">Gift</button>
+        <button type="button" class="btn btn-danger">Shop</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="left_image">
+    <img src="i.png">
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-danger text-light" style="z-index: 2;">
     <div class="container-fluid">
       <div class="head">Cafeverse</div>
       <button class="know_now">Know more</button>
@@ -66,37 +77,37 @@
     <div class="row">
       <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
         <div class="circle-container">
-          <img src="\org\image\beans.jpg" class="circle">
+          <img src="\beans.jpg" class="circle">
           <p class="circle-name">Bestseller</p>
         </div>
       </div>
       <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
         <div class="circle-container">
-          <img src="\org\image\cafe5.jpg" class="circle">
+          <img src="\cafe5.jpg" class="circle">
           <p class="circle-name">Drinks</p>
         </div>
       </div>
       <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
         <div class="circle-container">
-          <img src="\org\image\mug.jpg" class="circle">
+          <img src="\mug.jpg" class="circle">
           <p class="circle-name">Merchandise</p>
         </div>
       </div>
       <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
         <div class="circle-container">
-          <img src="\org\image\food.png" class="circle">
+          <img src="\food.png" class="circle">
           <p class="circle-name">Food</p>
         </div>
       </div>
       <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
         <div class="circle-container">
-          <img src="\org\image\beans.jpg" class="circle">
+          <img src="\beans.jpg" class="circle">
           <p class="circle-name">Beans</p>
         </div>
       </div>
       <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
         <div class="circle-container">
-          <img src="\org\image\readytoeat.jpg" class="circle">
+          <img src="\readytoeat.jpg" class="circle">
           <p class="circle-name">Ready to eat</p>
         </div>
       </div>
@@ -130,7 +141,7 @@
           <h2 class="display-5">Signature Espresso</h2>
           <p class="lead">A rich, velvety espresso made from the finest, locally sourced beans.</p>
         </div>
-        <img src="\org\image\Signature_Espresso.jpg" class="bg-body-tertiary shadow-sm mx-auto"
+        <img src="\Signature_Espresso.jpg" class="bg-body-tertiary shadow-sm mx-auto"
           style="width: 80%; height: 300px; border-radius: 21px 21px 0 0; object-fit: cover;">
       </div>
       <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
@@ -138,7 +149,7 @@
           <h2 class="display-5">Coffee Beans</h2>
           <p class="lead">Take the cafe experience home with our premium coffee beans, roasted to perfection.</p>
         </div>
-        <img src="\org\image\Coffee_beans.jpeg" class="bg-body-tertiary shadow-sm mx-auto"
+        <img src="\Coffee_beans.jpeg" class="bg-body-tertiary shadow-sm mx-auto"
           style="width: 80%; height: 300px; border-radius: 21px 21px 0 0; object-fit: cover;">
       </div>
     </div>
@@ -152,29 +163,9 @@
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Store</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Order</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Log in</a></li>
           </ul>
         </div>
         <div class="col-md-5 offset-md-1 mb-3">
@@ -209,4 +200,5 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
